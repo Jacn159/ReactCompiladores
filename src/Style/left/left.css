@@ -1,0 +1,6 @@
+.left{
+    /* background: linear-gradient(to left bottom, #f8b538, #F28E13); */
+    background: linear-gradient(to left bottom, #eab045, #F28E13);
+    width: 50%;
+    padding-top: 1.7rem;
+}

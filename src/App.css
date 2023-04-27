@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right bottom, #3d92dc, #052DA6);
+  background: linear-gradient(to left bottom, #eab045, #F28E13),
+    linear-gradient(to right bottom, #3d92dc, #052DA6);
+    background-size: calc(50% + 1px) 100%, calc(50% + 1px) 100%;
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+}
+.Input{
+  display: block;
+
+}

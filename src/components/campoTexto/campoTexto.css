@@ -1,0 +1,53 @@
+.campoTexto {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 4%;
+  top: 20%;
+}
+.campoTexto label {
+  color: antiquewhite;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.campoTexto form {
+  margin-top: 16%;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  background: rgba(244, 227, 181, 0.973);
+  opacity: 0.5;
+  width: 37rem;
+  padding: 1rem;
+  border-radius: 15px;
+  height: 12rem;
+  position: static;
+  border: none;
+  outline: none;
+  resize: none;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+.botonera {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+.boton {
+  background: rgb(224, 133, 42);
+  color: aliceblue;
+  border: none;
+  padding: 1rem;
+  border-radius: 15px;
+  outline: none;
+}
+.boton:hover {
+  box-shadow: 4px 4px 4px #00000053;
+  transition: 0.2s;
+  cursor: pointer;
+}
