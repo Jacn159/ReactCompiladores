@@ -18,7 +18,7 @@ function App() {
       <main>
         <Header cambio={cambiarMostrar}/>
         
-        <Input> </Input>
+        <Input></Input>
 
         
       </main>

@@ -36,7 +36,7 @@ const Header = () => {
   };
   return (
     <header className="Header">
-      <img className="logo" src="/src/assets/logo.png" alt="" />
+      <img className="logo" src="/public/assets/logo.png" alt="" />
       <nav>
         <ul className="menu">
           <li className="mostrar" onClick={() => showCard("https://github.com/Jacn159.png", "Casma Nieto Jose Aldahir", "https://github.com/FredyPachas", "https://www.linkedin.com/")}>
@@ -56,7 +56,7 @@ const Header = () => {
       {cardVisible ? (
       <div>
         <div className="transition">
-          <img src="/src/assets/cargando.gif" alt="" />
+          <img src="/public/assets/cargando.gif" alt="" />
         </div>
               <div className="overlay">
         
@@ -74,7 +74,7 @@ const Header = () => {
       showSearch && (
         <div className="buscador">
           <div className="imagen">
-            <img src="/src/assets/buscador.png" alt="" />
+            <img src="/public/assets/buscador.png" alt="" />
           </div>
           <p className="nofound">Selecciona un integrante</p>
         </div>
