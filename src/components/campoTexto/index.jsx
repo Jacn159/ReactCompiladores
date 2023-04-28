@@ -30,7 +30,7 @@ const campoTexto = (props) => {
         <label >
           Hola a todos, este es nuestro autómata 
         </label>
-        <label>"Número Letras _"</label>
+        <img src="/assets/Esquema.png" alt="" />
         <textarea
           value={props.valor}
           onChange={manejarCambio}

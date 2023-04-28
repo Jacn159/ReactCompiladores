@@ -5,9 +5,10 @@
   left: 0;
   top: 0;
   width: 24%;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-left: 6%;
   margin-right: 500%;
+  text-align: center;
 }
 .campoTexto label {
   width: 150%;
@@ -58,4 +59,9 @@
   box-shadow: 4px 4px 4px #00000053;
   transition: 0.2s;
   cursor: pointer;
+}
+
+.campoTexto img{
+  margin-left: 13%;
+  width: 28rem;
 }

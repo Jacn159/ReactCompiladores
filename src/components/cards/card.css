@@ -37,9 +37,11 @@
   text-decoration: none;
   color: black;
   font-size: 16px;
+  font-family: tahoma;
+  margin-left: 2px;
 }
 
-.redes a:hover {
+.redes li:hover {
   transition: 0.3s;
   box-shadow: 4px 4px 4px #00000053;
   padding: 0.5rem 1rem;
@@ -51,7 +53,10 @@
   animation-fill-mode: forwards;
   opacity: 0;
 }
-
+.card li {
+  display: flex;
+  align-items: end;
+}
 @keyframes fade-in {
   0% {
     opacity: 0;

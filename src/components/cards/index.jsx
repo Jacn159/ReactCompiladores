@@ -1,5 +1,5 @@
 import "./card.css";
-
+import { AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 const Cards = (props) => {
   return (
     <div className="card">
@@ -9,15 +9,17 @@ const Cards = (props) => {
         <ul>
           <li>
             {" "}
+            <AiFillGithub/> 
             <a href={props.github} Target="_blank">
               {" "}
-              Github
+               Github
             </a>
           </li>
           <li>
             {" "}
-            <a href={props.linkedin} Target="_blank">
-              {" "}
+            <AiFillLinkedin/>
+            <a href={props.linkedin} Target="_blank"> 
+              {" "} 
               Linkedin
             </a>
           </li>
