@@ -27,9 +27,10 @@ const campoTexto = (props) => {
   return (
     <div>
       <div className="campoTexto">
-        <label onClick={props.click}>
-          Hola a todos, este es nuestro automata
+        <label >
+          Hola a todos, este es nuestro autómata 
         </label>
+        <label>"Número Letras _"</label>
         <textarea
           value={props.valor}
           onChange={manejarCambio}

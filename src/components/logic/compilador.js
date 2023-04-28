@@ -61,14 +61,14 @@ const compilador = (valor) => {
               }
           }
           const mensaje = valor3
-            ? "Cumple "
-            : "No cumple, porque en medio solo deben ir letras";
+            ? "Si cumple con los requerimientos."
+            : "No cumple, porque en medio solo deben ir letras.";
           const mensajeFinal = mensaje;
           resultado = mensajeFinal; // asignar el resultado al estado
         } else resultado = "Te faltó colocar letras";
       } else {
         const mensajeFinal =
-          "No cumple con los requerimientos, porque necesita un digito al inicio o un guion bajo al final ";
+          "No cumple con los requerimientos, porque necesita un digito al inicio o un guion bajo al final.";
         resultado = mensajeFinal; // asignar el resultado al estado
       }
     };
