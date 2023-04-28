@@ -15,13 +15,17 @@ function App() {
   };
   return (
     <>
+       <div className="carga">
+          <img src="/public/assets/cargando.gif" alt="" />
+        </div>
       <main>
+        
         <Header cambio={cambiarMostrar}/>
         
         <Input></Input>
 
-        
       </main>
+      
     </>
   );
 }

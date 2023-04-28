@@ -39,24 +39,27 @@ const Header = () => {
       <img className="logo" src="/public/assets/logo.png" alt="" />
       <nav>
         <ul className="menu">
-          <li className="mostrar" onClick={() => showCard("https://github.com/Jacn159.png", "Casma Nieto Jose Aldahir", "https://github.com/FredyPachas", "https://www.linkedin.com/")}>
+          <li className="mostrar" onClick={() => showCard("https://github.com/Jacn159.png", "Casma Nieto Jose Aldahir", "https://github.com/Jacn159", "https://www.linkedin.com/")}>
             Casma
           </li>
-          <li className="mostrar" onClick={() => showCard("https://github.com/FredyPachas.png", "Pachas Napa Fredy Johan", "https://github.com/example", "https://www.linkedin.com/in/example")}>
+          <li className="mostrar" onClick={() => showCard("https://github.com/FredyPachas.png", "Pachas Napa Fredy Johan", "https://github.com/FredyPachas", "https://www.linkedin.com/in/example")}>
             Pachas?
           </li>
-          <li className="mostrar" onClick={() => showCard("https://github.com/HerrSopMod.png", "Canales Cuellar Jose Luis Santiago", "https://github.com/another-example", "https://www.linkedin.com/in/another-example")}>
+          <li className="mostrar" onClick={() => showCard("https://github.com/HerrSopMod.png", "Canales Cuellar Jose Luis Santiago", "https://github.com/HerrSopMod", "https://www.linkedin.com/in/another-example")}>
             Canales
           </li>
-          <li className="mostrar" onClick={() => showCard("https://github.com/Jesus1905.png", "Magallanes Tasayco Jesus Antonio", "https://github.com/last-example", "https://www.linkedin.com/in/last-example")}>
+          <li className="mostrar" onClick={() => showCard("https://github.com/Jesus1905.png", "Magallanes Tasayco Jesus Antonio", "https://github.com/Jesus1905", "https://www.linkedin.com/in/last-example")}>
             Magallanes
+          </li>
+          <li className="mostrar" onClick={() => showCard("https://github.com/ProgramerPA.png", "Cama Valentin Piero Alexis", "https://github.com/ProgramerPA", "https://www.linkedin.com/in/last-example")}>
+            Cama
           </li>
         </ul>
       </nav>
       {cardVisible ? (
       <div>
         <div className="transition">
-          <img src="/public/assets/cargando.gif" alt="" />
+          <img src="/public/assets/carga.gif" alt="" />
         </div>
               <div className="overlay">
         

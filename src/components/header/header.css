@@ -74,12 +74,12 @@
 }
 
 .transition img{
-    width: 75px;
+    width: 9rem;
 }
-.transition {
+.transition  img{
     margin-top: 20rem;
-    margin-left: 32rem;
-    width: 75px;
+    margin-left: 38rem;
+    width: 150px;
     animation-name: fade-out;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -91,9 +91,12 @@
     }
     50% {
       opacity: 1;
+      margin-left: 40rem;
+      width: 250px;
     }
     100% {
       opacity: 0;
+      
     }
   }
   
